@@ -1,5 +1,6 @@
 package halima.idouaksim.billingservice.entities;
 
+import halima.idouaksim.billingservice.model.Product;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,5 +12,8 @@ public class ProductItem {
     private double price;
     @ManyToOne
     private Bill bill;
+
+    @Transient
+    private Product product;
 
 }

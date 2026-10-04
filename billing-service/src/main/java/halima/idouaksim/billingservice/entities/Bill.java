@@ -1,5 +1,6 @@
 package halima.idouaksim.billingservice.entities;
 
+import halima.idouaksim.billingservice.model.Customer;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -15,4 +16,6 @@ public class Bill {
     private long customerId;
     @OneToMany(mappedBy = "bill")
     private List<ProductItem> productItems;
+    @Transient
+    private Customer customer;
 }
