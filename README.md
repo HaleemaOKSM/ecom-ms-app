@@ -17,3 +17,8 @@ discovery service
 
 dynamic ROUTAGE
 ![img_7.png](img_7.png)
+
+billing service test
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
+
