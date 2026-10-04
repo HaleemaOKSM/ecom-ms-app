@@ -25,3 +25,6 @@ billing service test
 
 rest controller 
 ![img_12.png](img_12.png)
+
+Default Customer
+![img_13.png](img_13.png)
