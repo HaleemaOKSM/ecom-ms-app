@@ -11,3 +11,6 @@ Actuator
 
 gateway service
 ![img_5.png](img_5.png)
+
+discovery service
+![img_6.png](img_6.png)
