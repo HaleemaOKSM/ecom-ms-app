@@ -1,13 +1,16 @@
 package halima.idouaksim.customerservice;
 
+import halima.idouaksim.customerservice.config.CustomerConfigParams;
 import halima.idouaksim.customerservice.entities.Customer;
 import halima.idouaksim.customerservice.repository.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+@EnableConfigurationProperties(CustomerConfigParams.class)
 public class CustomerServiceApplication {
 
     public static void main(String[] args) {
