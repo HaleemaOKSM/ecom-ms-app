@@ -14,3 +14,6 @@ gateway service
 
 discovery service
 ![img_6.png](img_6.png)
+
+dynamic ROUTAGE
+![img_7.png](img_7.png)
