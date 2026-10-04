@@ -8,3 +8,6 @@ products micro-service test
 
 Actuator
 ![img_4.png](img_4.png)
+
+gateway service
+![img_5.png](img_5.png)
